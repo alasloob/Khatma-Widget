@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E874C912195635F200F4736F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E874C911195635F200F4736F /* Foundation.framework */; };
+		E874C914195635F300F4736F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E874C913195635F300F4736F /* UIKit.framework */; };
+		E874C91F195635F300F4736F /* KhatmaWidgetController.m in Sources */ = {isa = PBXBuildFile; fileRef = E874C91E195635F300F4736F /* KhatmaWidgetController.m */; };
+		E8B8FB6F19577F1E007CBCA9 /* SpringBoardUIServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8B8FB6E19577F1E007CBCA9 /* SpringBoardUIServices.framework */; };
+		E8F7385519563FAB0097B33C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8F7385419563FAB0097B33C /* CoreGraphics.framework */; };
+		E8F7385719563FB10097B33C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8F7385619563FB10097B33C /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E874C90E195635F200F4736F /* KhatmaWidget */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = KhatmaWidget; sourceTree = BUILT_PRODUCTS_DIR; };
+		E874C911195635F200F4736F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E874C913195635F300F4736F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E874C918195635F300F4736F /* control.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = control.txt; path = Package/DEBIAN/control.txt; sourceTree = "<group>"; };
+		E874C919195635F300F4736F /* control */ = {isa = PBXFileReference; lastKnownFileType = text; name = control; path = Package/DEBIAN/control; sourceTree = "<group>"; };
+		E874C91B195635F300F4736F /* PackageVersion.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PackageVersion.plist; sourceTree = "<group>"; };
+		E874C91C195635F300F4736F /* KhatmaWidget-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KhatmaWidget-Prefix.pch"; sourceTree = "<group>"; };
+		E874C91D195635F300F4736F /* KhatmaWidgetController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KhatmaWidgetController.h; sourceTree = "<group>"; };
+		E874C91E195635F300F4736F /* KhatmaWidgetController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KhatmaWidgetController.m; sourceTree = "<group>"; };
+		E874C924195635F300F4736F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Package/System/Library/WeeAppPlugins/KhatmaWidget.bundle/Info.plist; sourceTree = "<group>"; };
+		E874C925195635F300F4736F /* InfoPlist.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = InfoPlist.strings; path = Package/System/Library/WeeAppPlugins/KhatmaWidget.bundle/InfoPlist.strings; sourceTree = "<group>"; };
+		E8B8FB6E19577F1E007CBCA9 /* SpringBoardUIServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpringBoardUIServices.framework; sourceTree = "<group>"; };
+		E8F7385419563FAB0097B33C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E8F7385619563FB10097B33C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E874C90A195635F200F4736F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8F7385719563FB10097B33C /* QuartzCore.framework in Frameworks */,
+				E8B8FB6F19577F1E007CBCA9 /* SpringBoardUIServices.framework in Frameworks */,
+				E8F7385519563FAB0097B33C /* CoreGraphics.framework in Frameworks */,
+				E874C912195635F200F4736F /* Foundation.framework in Frameworks */,
+				E874C914195635F300F4736F /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E874C904195635F200F4736F = {
+			isa = PBXGroup;
+			children = (
+				E874C915195635F300F4736F /* KhatmaWidget */,
+				E874C910195635F200F4736F /* Frameworks */,
+				E874C90F195635F200F4736F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E874C90F195635F200F4736F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E874C90E195635F200F4736F /* KhatmaWidget */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E874C910195635F200F4736F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E8B8FB6E19577F1E007CBCA9 /* SpringBoardUIServices.framework */,
+				E8F7385619563FB10097B33C /* QuartzCore.framework */,
+				E8F7385419563FAB0097B33C /* CoreGraphics.framework */,
+				E874C911195635F200F4736F /* Foundation.framework */,
+				E874C913195635F300F4736F /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E874C915195635F300F4736F /* KhatmaWidget */ = {
+			isa = PBXGroup;
+			children = (
+				E874C91D195635F300F4736F /* KhatmaWidgetController.h */,
+				E874C91E195635F300F4736F /* KhatmaWidgetController.m */,
+				E874C916195635F300F4736F /* Package */,
+				E874C91A195635F300F4736F /* Supporting Files */,
+			);
+			path = KhatmaWidget;
+			sourceTree = "<group>";
+		};
+		E874C916195635F300F4736F /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				E874C917195635F300F4736F /* DEBIAN */,
+				E874C920195635F300F4736F /* System */,
+			);
+			name = Package;
+			sourceTree = "<group>";
+		};
+		E874C917195635F300F4736F /* DEBIAN */ = {
+			isa = PBXGroup;
+			children = (
+				E874C918195635F300F4736F /* control.txt */,
+				E874C919195635F300F4736F /* control */,
+			);
+			name = DEBIAN;
+			sourceTree = "<group>";
+		};
+		E874C91A195635F300F4736F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E874C91B195635F300F4736F /* PackageVersion.plist */,
+				E874C91C195635F300F4736F /* KhatmaWidget-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E874C920195635F300F4736F /* System */ = {
+			isa = PBXGroup;
+			children = (
+				E874C921195635F300F4736F /* Library */,
+			);
+			name = System;
+			sourceTree = "<group>";
+		};
+		E874C921195635F300F4736F /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				E874C922195635F300F4736F /* WeeAppPlugins */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		E874C922195635F300F4736F /* WeeAppPlugins */ = {
+			isa = PBXGroup;
+			children = (
+				E874C923195635F300F4736F /* ___PACKAGENAME___ */,
+			);
+			name = WeeAppPlugins;
+			sourceTree = "<group>";
+		};
+		E874C923195635F300F4736F /* ___PACKAGENAME___ */ = {
+			isa = PBXGroup;
+			children = (
+				E874C924195635F300F4736F /* Info.plist */,
+				E874C925195635F300F4736F /* InfoPlist.strings */,
+			);
+			name = "___PACKAGENAME___";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E874C90B195635F200F4736F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		E874C90D195635F200F4736F /* KhatmaWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E874C92B195635F300F4736F /* Build configuration list for PBXNativeTarget "KhatmaWidget" */;
+			buildPhases = (
+				E874C909195635F200F4736F /* Sources */,
+				E874C90A195635F200F4736F /* Frameworks */,
+				E874C90B195635F200F4736F /* Headers */,
+				E874C90C195635F200F4736F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KhatmaWidget;
+			productName = KhatmaWidget;
+			productReference = E874C90E195635F200F4736F /* KhatmaWidget */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E874C905195635F200F4736F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = E874C908195635F200F4736F /* Build configuration list for PBXProject "KhatmaWidget" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E874C904195635F200F4736F;
+			productRefGroup = E874C90F195635F200F4736F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E874C90D195635F200F4736F /* KhatmaWidget */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E874C90C195635F200F4736F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/iOSOpenDev/bin/iosod --xcbp";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E874C909195635F200F4736F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E874C91F195635F300F4736F /* KhatmaWidgetController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E874C929195635F300F4736F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = YES;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				MACOSX_DEPLOYMENT_TARGET = "";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos7.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Debug;
+		};
+		E874C92A195635F300F4736F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = YES;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				MACOSX_DEPLOYMENT_TARGET = "";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos7.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Release;
+		};
+		E874C92C195635F300F4736F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_EXTENSION = "";
+				EXECUTABLE_NAME = KhatmaWidget;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KhatmaWidget/KhatmaWidget-Prefix.pch";
+				INSTALL_PATH = /System/Library/WeeAppPlugins/KhatmaWidget.bundle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				iOSOpenDevBuildPackageOnAnyBuild = YES;
+				iOSOpenDevCopyOnBuild = YES;
+				iOSOpenDevDevice = 192.168.1.4;
+				iOSOpenDevInstallOnAnyBuild = YES;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Debug;
+		};
+		E874C92D195635F300F4736F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_EXTENSION = "";
+				EXECUTABLE_NAME = KhatmaWidget;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KhatmaWidget/KhatmaWidget-Prefix.pch";
+				INSTALL_PATH = /System/Library/WeeAppPlugins/KhatmaWidget.bundle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "arm64 armv7 armv7s";
+				iOSOpenDevBuildPackageOnAnyBuild = YES;
+				iOSOpenDevCopyOnBuild = YES;
+				iOSOpenDevDevice = 192.168.1.4;
+				iOSOpenDevInstallOnAnyBuild = YES;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E874C908195635F200F4736F /* Build configuration list for PBXProject "KhatmaWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E874C929195635F300F4736F /* Debug */,
+				E874C92A195635F300F4736F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E874C92B195635F300F4736F /* Build configuration list for PBXNativeTarget "KhatmaWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E874C92C195635F300F4736F /* Debug */,
+				E874C92D195635F300F4736F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E874C905195635F200F4736F /* Project object */;
+}

@@ -1,0 +1,17 @@
+Package: com.arbphone.KhatmaWidget
+Name: Khatma Widget
+Version: 1.0-1
+Description: 
+Section: Addons (NotificationCenter)
+Depends: firmware (>= 7.0)
+Conflicts: 
+Replaces: 
+Priority: optional
+Architecture: iphoneos-arm
+Author: Youssef Eid <alasloob@gmail.com>
+dev: Youssef Eid <alasloob@gmail.com>
+Homepage: http://www.arbphone.com
+Depiction: 
+Maintainer: 
+Icon: 
+
