@@ -1,4 +1,6 @@
 Khatma-Widget
 =============
 
-Khatma Widget NC -- 
+Khatma Widget NC -- By Youssef Eid 
+
+Twitter : @arabphones
